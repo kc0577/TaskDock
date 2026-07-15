@@ -22,9 +22,13 @@ TaskDock 是面向 Windows 11 的非官方 Codex 本地状态与额度工具。�
 
 TaskDock 只在本机读取 Codex app-server、session 文件、`session_index.jsonl`、`%APPDATA%\CodexBar` 和当前用户启动项，不上传代码、任务内容、日志、Token 历史、凭据或遥测数据。详见 [PRIVACY.md](PRIVACY.md)。
 
-## 支持开发
+## 支持维护
 
-TaskDock 免费提供下载。赞助入口将在官方爱发电页面准备完成后添加；任何赞助均为自愿支持，不影响下载和功能。
+TaskDock 免费提供完整下载和功能。赞助完全自愿，仅用于支持持续维护和后续更新，不构成购买、授权、订阅或功能解锁。
+
+- [爱发电：赞助开发](https://ifdian.net/a/TaskDock)
+- [Ko-fi：Support TaskDock](https://ko-fi.com/taskdock)
+- [支付宝：扫码赞助](DONATE.md)
 
 ## 许可证
 
