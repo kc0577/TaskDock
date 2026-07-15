@@ -1,8 +1,12 @@
-# TaskDock
+# TaskDock — Codex Usage & Quota Monitor for Windows
 
-TaskDock 是面向 Windows 11 的非官方 Codex 本地状态与额度工具。它读取本机 app-server 和 session 文件，在任务栏附近显示状态、额度、任务和统计信息。
+TaskDock is a lightweight Windows desktop monitor for Codex usage, quotas, tasks, and local token stats.
 
-> TaskDock 不是 OpenAI 官方产品，也不代表 OpenAI 的授权、认可或合作关系。
+在 Windows 上查看 Codex 状态、5 小时/7 天额度、多任务进度和本地 Token 统计。
+
+> TaskDock is an unofficial third-party tool and is not affiliated with or endorsed by OpenAI.
+>
+> TaskDock 是非官方第三方工具，不代表 OpenAI 的授权、认可或合作关系。
 
 ## 下载
 
@@ -12,11 +16,21 @@ TaskDock 是面向 Windows 11 的非官方 Codex 本地状态与额度工具。�
 
 ## 功能
 
+- Codex 5-hour and 7-day quota status
+- Multiple Codex task running states
+- Current task name and local token statistics
+- Tray menu, pinning, position lock, and startup launch
+- Light and dark visual modes
+
 - 状态灯与 5 小时/7 天额度
 - 多个 Codex 任务的运行状态
 - 当前任务名称和本地 Token 统计
 - 托盘菜单、置顶、位置锁定和开机启动
 - 浅色/深色视觉模式
+
+![TaskDock status overview](assets/readme-hero.svg)
+
+![TaskDock status strip](assets/readme-status-strip.svg)
 
 ## 隐私
 
