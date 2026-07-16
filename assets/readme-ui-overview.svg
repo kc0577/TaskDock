@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">TaskDock current UI overview</title>
+  <desc id="desc">Dark and light status bars, bilingual settings, and Token statistics with task attribution.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f7fb"/>
+      <stop offset="1" stop-color="#e8edf4"/>
+    </linearGradient>
+    <linearGradient id="darkPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#30343d"/>
+      <stop offset="1" stop-color="#24272e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#27364b" flood-opacity=".14"/>
+    </filter>
+    <style>
+      .sans { font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif; }
+      .title { font-size: 28px; font-weight: 700; fill: #202938; }
+      .section { font-size: 14px; font-weight: 700; fill: #65728a; letter-spacing: .8px; }
+      .darkText { fill: #f6f8fc; }
+      .muted { fill: #aeb7c5; }
+      .lightText { fill: #263143; }
+      .lightMuted { fill: #77839a; }
+      .small { font-size: 12px; }
+      .body { font-size: 14px; }
+      .bold { font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" rx="24" fill="url(#canvas)"/>
+  <text x="54" y="60" class="sans title">TaskDock</text>
+  <text x="54" y="87" class="sans section">当前界面 / CURRENT UI · 额度监控 · 多任务识别 · Token 统计</text>
+
+  <!-- dark multi-task status bar -->
+  <g filter="url(#shadow)">
+    <rect x="54" y="118" width="520" height="226" rx="14" fill="url(#darkPanel)"/>
+    <rect x="55" y="119" width="518" height="224" rx="13" fill="none" stroke="#596474"/>
+    <text x="78" y="153" class="sans darkText body bold">Codex</text>
+    <circle cx="154" cy="148" r="7" fill="#4ed078"/>
+    <circle cx="176" cy="148" r="7" fill="#36a7f5"/>
+    <circle cx="198" cy="148" r="7" fill="#697484"/>
+    <text x="518" y="153" text-anchor="end" class="sans" font-size="15" font-weight="700" fill="#49b7ff">正在工作</text>
+    <text x="78" y="193" class="sans muted body">5h</text>
+    <rect x="130" y="181" width="270" height="12" rx="6" fill="#454d5b"/>
+    <rect x="130" y="181" width="220" height="12" rx="6" fill="#35c77a"/>
+    <text x="518" y="193" text-anchor="end" class="sans darkText body">剩余 81%</text>
+    <text x="78" y="231" class="sans muted body">7d</text>
+    <rect x="130" y="219" width="270" height="12" rx="6" fill="#454d5b"/>
+    <rect x="130" y="219" width="250" height="12" rx="6" fill="#3298f2"/>
+    <text x="518" y="231" text-anchor="end" class="sans darkText body">剩余 92%</text>
+    <line x1="78" y1="252" x2="550" y2="252" stroke="#596474"/>
+    <text x="314" y="279" text-anchor="middle" class="sans muted small">抖音项目灵感 · 修复token · +1 个任务</text>
+    <text x="314" y="316" text-anchor="middle" class="sans" font-size="11" fill="#758398">深色模式 / 多任务识别</text>
+  </g>
+
+  <!-- light status bar -->
+  <g filter="url(#shadow)">
+    <rect x="626" y="118" width="520" height="226" rx="14" fill="#ffffff"/>
+    <rect x="627" y="119" width="518" height="224" rx="13" fill="none" stroke="#c9d1dd"/>
+    <text x="650" y="153" class="sans lightText body bold">Codex</text>
+    <circle cx="726" cy="148" r="7" fill="#4ed078"/>
+    <circle cx="748" cy="148" r="7" fill="#a2a9b5"/>
+    <circle cx="770" cy="148" r="7" fill="#a2a9b5"/>
+    <text x="1090" y="153" text-anchor="end" class="sans" font-size="15" font-weight="700" fill="#24a96d">空闲</text>
+    <text x="650" y="193" class="sans lightMuted body">5h</text>
+    <rect x="702" y="181" width="270" height="12" rx="6" fill="#e2e6ec"/>
+    <rect x="702" y="181" width="248" height="12" rx="6" fill="#35c77a"/>
+    <text x="1090" y="193" text-anchor="end" class="sans lightText body">剩余 92%</text>
+    <text x="650" y="231" class="sans lightMuted body">7d</text>
+    <rect x="702" y="219" width="270" height="12" rx="6" fill="#e2e6ec"/>
+    <rect x="702" y="219" width="250" height="12" rx="6" fill="#1687f0"/>
+    <text x="1090" y="231" text-anchor="end" class="sans lightText body">剩余 92%</text>
+    <line x1="650" y1="252" x2="1122" y2="252" stroke="#d4dae3"/>
+    <text x="886" y="279" text-anchor="middle" class="sans lightMuted small">TaskDock开发 · 第22期 · 继续部署</text>
+    <text x="886" y="316" text-anchor="middle" class="sans" font-size="11" fill="#8b96a8">浅色模式 / 单任务</text>
+  </g>
+
+  <!-- bilingual settings -->
+  <g filter="url(#shadow)">
+    <rect x="54" y="390" width="520" height="438" rx="14" fill="#ffffff"/>
+    <rect x="55" y="391" width="518" height="436" rx="13" fill="none" stroke="#c9d1dd"/>
+    <text x="82" y="430" class="sans lightText" font-size="21" font-weight="700">设置 / Settings</text>
+    <text x="82" y="465" class="sans lightText body">窗口置顶 / Always on top</text>
+    <rect x="467" y="450" width="34" height="20" rx="10" fill="#1687f0"/>
+    <circle cx="491" cy="460" r="7" fill="#ffffff"/>
+    <text x="82" y="510" class="sans lightText body">视觉模式 / Visual mode</text>
+    <rect x="318" y="489" width="183" height="30" rx="5" fill="#f5f7fa" stroke="#c9d1dd"/>
+    <text x="334" y="509" class="sans lightText small">浅色 / Light</text>
+    <text x="82" y="555" class="sans lightText body">状态栏宽度 / Status bar width</text>
+    <rect x="318" y="534" width="183" height="30" rx="5" fill="#f5f7fa" stroke="#c9d1dd"/>
+    <text x="334" y="554" class="sans lightText small">240 px</text>
+    <text x="82" y="600" class="sans lightText body">状态栏高度 / Status bar height</text>
+    <rect x="318" y="579" width="183" height="30" rx="5" fill="#f5f7fa" stroke="#c9d1dd"/>
+    <text x="334" y="599" class="sans lightText small">106 px</text>
+    <text x="82" y="645" class="sans lightText body">界面语言 / Interface language</text>
+    <rect x="318" y="624" width="183" height="30" rx="5" fill="#f5f7fa" stroke="#c9d1dd"/>
+    <text x="334" y="644" class="sans lightText small">中文 / English</text>
+    <line x1="82" y1="688" x2="501" y2="688" stroke="#e0e5ec"/>
+    <text x="82" y="720" class="sans lightMuted small">保存后立即应用 / Apply immediately on save</text>
+    <rect x="394" y="755" width="107" height="34" rx="6" fill="#1687f0"/>
+    <text x="447" y="777" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#ffffff">保存 / Save</text>
+  </g>
+
+  <!-- statistics and attribution -->
+  <g filter="url(#shadow)">
+    <rect x="626" y="390" width="520" height="438" rx="14" fill="#ffffff"/>
+    <rect x="627" y="391" width="518" height="436" rx="13" fill="none" stroke="#c9d1dd"/>
+    <text x="654" y="430" class="sans lightText" font-size="21" font-weight="700">统计 / Statistics</text>
+    <text x="654" y="458" class="sans lightMuted small">最近 14 天 Token 消耗 / Token consumption in the last 14 days</text>
+    <rect x="654" y="476" width="464" height="130" rx="7" fill="#f7f9fc" stroke="#e0e5ec"/>
+    <line x1="674" y1="580" x2="1098" y2="580" stroke="#d8e0ea"/>
+    <line x1="674" y1="530" x2="1098" y2="530" stroke="#e8edf3"/>
+    <polyline points="680,566 735,548 790,556 845,512 900,535 955,495 1010,518 1090,487" fill="none" stroke="#1687f0" stroke-width="3"/>
+    <circle cx="955" cy="495" r="5" fill="#ffffff" stroke="#1687f0" stroke-width="3"/>
+    <text x="654" y="637" class="sans lightText body bold">今日总 Token / Daily Token total</text>
+    <text x="1118" y="637" text-anchor="end" class="sans lightText body bold">12,480</text>
+    <line x1="654" y1="655" x2="1118" y2="655" stroke="#e0e5ec"/>
+    <text x="654" y="684" class="sans lightText small">抖音项目灵感 / Douyin ideas</text>
+    <rect x="870" y="675" width="180" height="7" rx="4" fill="#e1e7ef"/>
+    <rect x="870" y="675" width="135" height="7" rx="4" fill="#1687f0"/>
+    <text x="1118" y="684" text-anchor="end" class="sans lightText small">8,320</text>
+    <text x="654" y="718" class="sans lightText small">修复token / Fix token</text>
+    <rect x="870" y="709" width="180" height="7" rx="4" fill="#e1e7ef"/>
+    <rect x="870" y="709" width="75" height="7" rx="4" fill="#35c77a"/>
+    <text x="1118" y="718" text-anchor="end" class="sans lightText small">3,260</text>
+    <text x="654" y="752" class="sans lightText small">其他任务 / Other tasks</text>
+    <rect x="870" y="743" width="180" height="7" rx="4" fill="#e1e7ef"/>
+    <rect x="870" y="743" width="25" height="7" rx="4" fill="#9b7cf6"/>
+    <text x="1118" y="752" text-anchor="end" class="sans lightText small">900</text>
+    <text x="654" y="792" class="sans lightMuted small">本地数据 / Local data only</text>
+  </g>
+</svg>
